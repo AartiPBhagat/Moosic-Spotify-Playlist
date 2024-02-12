@@ -5,7 +5,7 @@ A CSV file with audio features of about 5000 songs sourced from Spotify is gievn
 Major steps followed for this project are as follows.
 
 ### Data cleaning
-- Clean and preprocessing data set
+- Cleaning and preprocessing data set
 - Drop unused columns
 - Remove outliers
 - Clean column names
@@ -14,9 +14,9 @@ Major steps followed for this project are as follows.
 MinMaxScalar or StandardScalar or RobustScaler
 
 ### K-mean clustering
-Use “Elbow-Method” to define amount of clusters (=playlists)
-Use Silhouette score to decide on best scaler
-Check different song-features for each cluster to name playlists!
+- Use of “Elbow-Method” to define amount of clusters (= no. of playlists)
+- Use of Silhouette score to decide on best number
+- Finalise K-means Model
 
 <!--### Cluster Analysis
 Univariate and bivariate analysis of clusters
